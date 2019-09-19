@@ -8,9 +8,9 @@ public class Ejercicio_Menu {
        int opcion = 0;
         do{
                 try{
-                    opcion = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor de las siguientes opciones"
-                        + "\n 1. Mostrar Paises"
-                        + "\n 2. Mostrar Departamentos"
+                    opcion = Integer.parseInt(JOptionPane.showInputDialog("Señor Usuario, ¿que desea hacer hoy?"
+                        + "\n 1. Operaciones Matematicas"
+                        + "\n 2. "
                         + "\n 3. Mostrar Ciudades"
                         + "\n 4. Salir"));
                 }catch(Exception ex){
